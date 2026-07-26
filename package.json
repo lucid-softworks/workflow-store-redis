@@ -1,6 +1,6 @@
 {
   "name": "@lucid-softworks/workflow-store-redis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atomic workflow checkpoint storage for Redis-compatible clients.",
   "keywords": [
     "javascript",
