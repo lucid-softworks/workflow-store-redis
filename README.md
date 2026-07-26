@@ -4,6 +4,10 @@ Atomic `WorkflowCheckpointStore` persistence for Redis. The structural
 `sendCommand` interface works with node-redis-compatible clients without adding
 a mandatory Redis dependency.
 
+```sh
+npm install @lucid-softworks/workflow-store-redis redis
+```
+
 ```ts
 import { createClient } from "redis";
 import { RedisWorkflowCheckpointStore } from "@lucid-softworks/workflow-store-redis";
